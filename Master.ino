@@ -1,5 +1,6 @@
+#define Ch7a 42
 
-byte msg[] = { 0b1111111,0b1111111,0b1111111,0b1111111,
+byte msg[Ch7a] = { 0b1111111,0b1111111,0b1111111,0b1111111,
                 0b0111111,0b0111111,0b1111111,0b0001000,
                 0b1111001,0b0100001,0b1111111,0b0010010,
                 0b0001000,0b1111001,0b0100001,0b1111111,
@@ -19,7 +20,7 @@ void setup(){
 
 void loop(){
   unsigned long how = analogRead(A0);
-  for (int i = 0; i < 42 ; i++){
+  for (int i = 0; i < Ch7a ; i++){
     unsigned long Asendi = millis();
     for (unsigned long Rekho = Asendi; Rekho - Asendi <= how ; Rekho = millis()){
       printt(i);
