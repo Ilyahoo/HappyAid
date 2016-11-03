@@ -1,6 +1,6 @@
 # HappyAid
 
-HappyAid it's a Quad7Segment that print 'Happy Aid' using Arduino UNO.
+HappyAid it's a Quad7Segment Anode Common that print 'Happy Aid' using Arduino UNO.
 You can print characters like : A,B,C,D,E,F,G,H,I,L,O,P,S,T,U,Y Numbers & -,_ .
 
 It's show some characters, Numbers & Symboles. It use direct PORT controling using Arduino Regesters. & a variable resistor to control the speed of character.
